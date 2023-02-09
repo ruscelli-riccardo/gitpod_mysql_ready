@@ -6,6 +6,6 @@ mydb = mysql.connector.connect(
   password=""
 )
 
-mycursor = mydb.cursor()
+mycursor = mydb.cursor()    #crea un oggetto in python che simula un comando in SQL
 
 mycursor.execute("CREATE DATABASE mydatabase")
